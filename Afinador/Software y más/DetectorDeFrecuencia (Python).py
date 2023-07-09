@@ -45,7 +45,7 @@ arduino_port = 'COM6' #Elegir el puerto correspondiente
 
 ser = serial.Serial(arduino_port, 9600) #Establecemos la conexión serial
 
-time.sleep(2) #Damos un tiemppo breve para que la conexión se efectue correctamente
+time.sleep(2) #Damos un tiempo breve para que la conexión se efectue correctamente
 
 ser.write(str(FrecuenciaDetectada).encode()) #Enviamos el dato de la frecuencia detectada a la placa
 
