@@ -9,7 +9,7 @@
 ## Índice
 * [Marco teórico](https://github.com/Chamil01/Prototipo-de-Afinador-Automatico-de-Guitarra-/tree/main#marco-te%C3%B3rico)
 * [Afinador de guitarra atomático](https://github.com/Chamil01/Prototipo-de-Afinador-Automatico-de-Guitarra-/tree/main#afinador-de-guitarra-autom%C3%A1tico)
-  * [Funcionalidad](https://github.com/Chamil01/Prototipo-de-Afinador-Automatico-de-Guitarra-/tree/main#funcionalidad)
+  * [Funcionamiento](https://github.com/Chamil01/Prototipo-de-Afinador-Automatico-de-Guitarra-/tree/main#funcionamiento)
   * [Uso](https://github.com/Chamil01/Prototipo-de-Afinador-Automatico-de-Guitarra-/tree/main#uso)
   * [Lista de componentes](https://github.com/Chamil01/Prototipo-de-Afinador-Automatico-de-Guitarra-/tree/main#lista-de-componentes)
   * [Circuito](https://github.com/Chamil01/Prototipo-de-Afinador-Automatico-de-Guitarra-/tree/main#circuito)
@@ -33,7 +33,7 @@ En palabras sencillas, y sin entrar en demasiados detalles matemáticos, la tran
 Teniendo esta breve introducción sobre el sonido, las notas musicales y cómo se relacionan con las frecuencias, es momento de adentrarnos en el armado y funcionamiento del afinador automático de guitarra.
 
 ## Afinador de guitarra automático
-### Funcionalidad 
+### Funcionamiento
 ### Uso
 ### Lista de componentes
 ### Circuito
