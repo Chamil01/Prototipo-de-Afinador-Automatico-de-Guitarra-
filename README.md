@@ -64,6 +64,7 @@ Una vez que afinamos una cuerda, el programa, mediante una luz LED, avisa al usu
 * FreeCAD.
   
 ### Circuito
+
 ### Software
 ### Ensamblaje
 
