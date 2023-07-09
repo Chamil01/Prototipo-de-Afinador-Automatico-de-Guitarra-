@@ -47,16 +47,22 @@ El sonido emitido por la cuerda de la guitarra es captado por el micrófono de l
 | 5ta | 110.00 Hz |
 | 6ta | 82.40 Hz  |
 
-Cuando la frecuencia de una cuerda aumenta, esta produce un sonido más agudo, mientras que si disminuye, suena más grave. Al comparar el dato obtenido con los exhibidos en la tabla, podremos determinar la acción que debe realizar el motor, tensar o destensar la cuerda correspondiente, accionando sobre las clavijas. Si la frecuencia registrada por el micrófono es menor a la tabulada, el motor debe tensar la cuerda, caso contrario, debe destensarla. 
+Cuando la frecuencia de una cuerda aumenta, esta produce un sonido más agudo, mientras que si disminuye, suena más grave. Al comparar el dato obtenido con los exhibidos en la tabla, podremos determinar la acción que debe realizar el motor, tensar o destensar la cuerda correspondiente, accionando sobre las clavijas. Si la frecuencia registrada por el micrófono es menor a la tabulada, el motor debe tensar la cuerda, caso contrario, debe destensarla. Para encastrar el afinador en el instrumento, se utiliza la pieza diseñada e impresa en 3D que conecta el motor con la clavija de la guitarra.
 
 Una vez que afinamos una cuerda, el programa, mediante una luz LED, avisa al usuario que debe pasar a la siguiente cuerda; así sucesivamente hasta afinar por completo el instrumento.
 
-Para encastrar el afinador en el instrumento, se utiliza la pieza diseñada e impresa en 3D que conecta el motor con la clavija de la guitarra. 
-
-
-
 ### Uso
 ### Lista de componentes
+* Placa Arduino UNO x 1.
+* Circuito integrado ULN2003 x 1.
+* Motor paso a paso 28BYJ-48 x 1.
+* Luz LED x 1.
+* Cables dupont macho-hembra x 8.
+* Pieza que conecta el motor con la clavija de la guitarra x 1.
+* Arduino IDE.
+* Python.
+* FreeCAD.
+  
 ### Circuito
 ### Software
 ### Ensamblaje
