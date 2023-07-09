@@ -1,3 +1,2 @@
-# Prototipo-de-Afinador-Automatico-de-Guitarra-
+# Prototipo de Afinador Automático de Guitarra
 
-fdsfda
