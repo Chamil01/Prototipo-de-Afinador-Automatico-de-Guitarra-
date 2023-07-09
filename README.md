@@ -34,6 +34,27 @@ Teniendo esta breve introducción sobre el sonido, las notas musicales y cómo s
 
 ## Afinador de guitarra automático
 ### Funcionamiento
+Sabemos, de la experiencia cotidiana, que cuando tocamos la cuerda de una guitarra, esta emite un sonido; lo que nos interesa a nosotros es la _frecuencia dominante_ en ese sonido. Para que el afinador funcione correctamente, debemos determinar en qué frecuencia está sonando cada cuerda. Luego, comparamos el valor obtenido con aquel que caracteriza a la cuerda accionada. En base a esta comparación, se decidirá si se debe tensar o destensar la cuerda; este paso será realizado con el motor.
+
+El sonido emitido por la cuerda de la guitarra es captado por el micrófono de la computadora en la cual está conectada la placa Arduino. Para determinar la frecuencia dominante del sonido registrada, es necesario realizar una transformada rápida de Fourier de los datos obtenidos de la señal registrada. En condiciones ideales, al realizar dicha transformada, el pico más alto que aparezca corresponderá a la frecuencia con la que está sonando la cuerda de la guitarra; este dato es el que se compara con la frecuencia a la que debería sonar una cuerda afinada. En una guitarra, la frecuencia de afinación estándar de cada cuerda es:
+
+| **Cuerda** | **Frecuencia**|
+|:----------:|:-------------:|
+| 1ra | 329.63 Hz |
+| 2da | 246.94 Hz |
+| 3ra | 196.00 Hz |
+| 4ta | 146.83 Hz |
+| 5ta | 110.00 Hz |
+| 6ta | 82.40 Hz  |
+
+Cuando la frecuencia de una cuerda aumenta, esta produce un sonido más agudo, mientras que si disminuye, suena más grave. Al comparar el dato obtenido con los exhibidos en la tabla, podremos determinar la acción que debe realizar el motor, tensar o destensar la cuerda correspondiente, accionando sobre las clavijas. Si la frecuencia registrada por el micrófono es menor a la tabulada, el motor debe tensar la cuerda, caso contrario, debe destensarla. 
+
+Una vez que afinamos una cuerda, el programa, mediante una luz LED, avisa al usuario que debe pasar a la siguiente cuerda; así sucesivamente hasta afinar por completo el instrumento.
+
+Para encastrar el afinador en el instrumento, se utiliza la pieza diseñada e impresa en 3D que conecta el motor con la clavija de la guitarra. 
+
+
+
 ### Uso
 ### Lista de componentes
 ### Circuito
