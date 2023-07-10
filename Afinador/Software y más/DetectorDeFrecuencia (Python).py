@@ -41,7 +41,7 @@ FrecuenciaDetectada=round(FrecuenciaDetectada,2) #Redondeamos el valor obtenido 
 
 # Conectamos el arduino con Python
 
-arduino_port = 'COM6' #Elegir el puerto correspondiente 
+arduino_port = 'COM6' #IMPORTANTE: Elegir el puerto correspondiente 
 
 ser = serial.Serial(arduino_port, 9600) #Establecemos la conexión serial
 
