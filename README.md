@@ -7,16 +7,18 @@
   Debido a todas estas razones, el proyecto completo no requiere de grandes conocimientos de programación, electrónica ni diseño 3D. Preferentemente, en caso de querer entender el funcionamiento del equipo con más detalle, es necesario un conocimiento básico en física y matemática, particularmente de sonido, frecuencias y su relación con la transformada de Fourier. 
 
 ## Índice
-* [Marco teórico](https://github.com/Chamil01/Prototipo-de-Afinador-Automatico-de-Guitarra-/tree/main#marco-te%C3%B3rico)
-* [Afinador de guitarra atomático](https://github.com/Chamil01/Prototipo-de-Afinador-Automatico-de-Guitarra-/tree/main#afinador-de-guitarra-autom%C3%A1tico)
-  * [Funcionamiento](https://github.com/Chamil01/Prototipo-de-Afinador-Automatico-de-Guitarra-/tree/main#funcionamiento)
-  * [Uso](https://github.com/Chamil01/Prototipo-de-Afinador-Automatico-de-Guitarra-/tree/main#uso)
-  * [Lista de componentes](https://github.com/Chamil01/Prototipo-de-Afinador-Automatico-de-Guitarra-/tree/main#lista-de-componentes)
-  * [Circuito](https://github.com/Chamil01/Prototipo-de-Afinador-Automatico-de-Guitarra-/tree/main#circuito)
-  * [Software](https://github.com/Chamil01/Prototipo-de-Afinador-Automatico-de-Guitarra-/tree/main#software)
-  * [Diseño 3D](https://github.com/Chamil01/Prototipo-de-Afinador-Automatico-de-Guitarra-/blob/main/README.md#dise%C3%B1o-3d)
-  * [Ensamblaje](https://github.com/Chamil01/Prototipo-de-Afinador-Automatico-de-Guitarra-/tree/main#ensamblaje)
-* [Conclusiones y trabajo a futuro](https://github.com/Chamil01/Prototipo-de-Afinador-Automatico-de-Guitarra-/tree/main#conclusiones-y-trabajo-a-futuro)
+* ➤ [Marco teórico](https://github.com/Chamil01/Prototipo-de-Afinador-Automatico-de-Guitarra-/tree/main#marco-te%C3%B3rico)
+  
+* ➤ [Afinador de guitarra atomático](https://github.com/Chamil01/Prototipo-de-Afinador-Automatico-de-Guitarra-/tree/main#afinador-de-guitarra-autom%C3%A1tico)
+  * • [Funcionamiento](https://github.com/Chamil01/Prototipo-de-Afinador-Automatico-de-Guitarra-/tree/main#funcionamiento)
+  * • [Uso](https://github.com/Chamil01/Prototipo-de-Afinador-Automatico-de-Guitarra-/tree/main#uso)
+  * • [Lista de componentes](https://github.com/Chamil01/Prototipo-de-Afinador-Automatico-de-Guitarra-/tree/main#lista-de-componentes)
+  * • [Circuito](https://github.com/Chamil01/Prototipo-de-Afinador-Automatico-de-Guitarra-/tree/main#circuito)
+  * • [Software](https://github.com/Chamil01/Prototipo-de-Afinador-Automatico-de-Guitarra-/tree/main#software)
+  * • [Diseño 3D](https://github.com/Chamil01/Prototipo-de-Afinador-Automatico-de-Guitarra-/blob/main/README.md#dise%C3%B1o-3d)
+  * • [Ensamblaje](https://github.com/Chamil01/Prototipo-de-Afinador-Automatico-de-Guitarra-/tree/main#ensamblaje)
+    
+* ➤ [Conclusiones y trabajo a futuro](https://github.com/Chamil01/Prototipo-de-Afinador-Automatico-de-Guitarra-/tree/main#conclusiones-y-trabajo-a-futuro)
 
 ## Marco teórico
 Antes de adentrarnos en el mundo de la música, las notas e instrumentos, es fundamental comprender el fenómeno esencial que lo hace posible: el sonido. Desde la física, lo que llamamos sonido, no son más que perturbaciones que viajan a través de medios materiales y nuestros oídos pueden percibir. Estas perturbaciones nacen en cierta región del espacio y se propagan a través de él como una **onda**. Las ondas sonoras se generan gracias a una fuente vibrante, como una cuerda de guitarra o las cuerdas vocales de un cantante, la cual produce variaciones de presión en el medio circundante. 
