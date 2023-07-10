@@ -149,7 +149,7 @@ El código [Afinador_Arduino.ino](https://github.com/Chamil01/Prototipo-de-Afina
 
 Con el objetivo de controlar el correcto funcionamiento del código, el programa imprime en pantalla los picos de frecuencia detectados en la transformada de Fourier como una lista. El primero de tales datos, en el caso ideal, debería corresponder a la frecuencia fundamental de la cuerda sonando. Otra etapa de control puede implementarse realizando un _plot_ de la transformada de Fourier en función de las frecuencias (el código para hacerlo está comentado al final del programa). Una vez enviada la frecuencia detectada a la placa Arduino, el programa finaliza y se encuentra listo para volver a ser ejecutado. Recomendamos esperar a que la placa Arduino complete correctamente su trabajo (mover el motor o prender la luz LED) antes de volver a ejecutar el programa en Python. 
 
-En caso de mantener Arduino IDE abierto con el código de la placa, recomendamos no abrir ni imprimir datos en el Monitor Serial, ya que hacerlo puede interferir con la comunicación serial entre Python y la placa Arduino. También hemos detectado problemas al intentar utilizar el programa con auriculares conectados, o con otro Software que utilice activamente el micrófono del ordenador, como lo puede ser Discord o Google Meet. 
+En caso de mantener Arduino IDE abierto con el código de la placa, recomendamos no abrir ni imprimir datos en el *"Monitor Serial"*, ya que hacerlo puede interferir con la comunicación serial entre Python y la placa Arduino. También hemos detectado problemas al intentar utilizar el programa con auriculares conectados, o con otro Software que utilice activamente el micrófono del ordenador, como lo puede ser Discord o Google Meet. 
 
   
 
