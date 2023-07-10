@@ -18,10 +18,23 @@ void loop() {
     float DiferenciaEntreFrecuencias;
     float AjustarClavija;
     DiferenciaEntreFrecuencias=CompararFrecuencia(FrecuenciaRecibida, Cuerda);
-    Serial.println(DiferenciaEntreFrecuencias);
+
+    if (abs(DiferenciaEntreFrecuencias<=0.7)){
+      if (Cuerda==5){
+          Cuerda=0
+      }
+      else{
+          Cuerda=Cuerda+1
+      }
+      for(int i = 0; i <= 10; i++){
+      digitalWrite(7,HIGH)
+      Delay(200)
+      digitalWrite(7,LOW)
+      Delay(200)
+      }
+      }
+else{
     MoverServo(DiferenciaEntreFrecuencias);
-    
-    //Agregar un if acá para que cambie de cuerda y avise al usuario
   }
 
   
