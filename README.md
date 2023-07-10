@@ -110,7 +110,7 @@ Como vemos en la imagen, utilizamos el circuito integrado ULN2003 para conectar 
 
 ### Software
 
-Todos los codigos están en [esta carpeta]([https://github.com/Chamil01/Prototipo-de-Afinador-Automatico-de-Guitarra-/tree/main#marco-te%C3%B3rico](https://github.com/Chamil01/Prototipo-de-Afinador-Automatico-de-Guitarra-/tree/main/Afinador/Software%20y%20m%C3%A1s))
+Todos los codigos están en [esta carpeta](https://github.com/Chamil01/Prototipo-de-Afinador-Automatico-de-Guitarra-/tree/main/Afinador/Software%20y%20m%C3%A1s)
 
 
 ### Diseño 3D
