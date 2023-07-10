@@ -34,6 +34,10 @@ Llegamos así a que, si queremos determinar cuál es el nombre de una nota music
 
 En palabras sencillas, y sin entrar en demasiados detalles matemáticos, la transformada de Fourier es una técnica que nos ayuda a analizar el contenido de frecuencias de una señal, o sea nos permite descomponer esa señal en diferentes componentes de frecuencia. Anteriormente mencionamos que, si grabamos un sonido con un micrófono, obtendremos una representación de una señal de intensidad en función del tiempo, en este caso estamos trabajando en lo que se conoce como “dominio temporal”. Pero a veces, queremos entender qué frecuencias están presentes en ese sonido, es decir, qué notas o tonos forman parte de esa señal. Es ahí donde entra en juego la Transformada de Fourier. Lo que hace es tomar esa señal en el dominio temporal y transformarla en una representación en el dominio de las frecuencias. En otras palabras, nos permite ver qué componentes de frecuencia están presentes en la señal.
 
+<p align="center">
+<img src="Afinador/ImagenesReadMe/FFT-Time-Frequency-View-540.png" width="600">
+</p>
+
 Teniendo esta breve introducción sobre el sonido, las notas musicales y cómo se relacionan con las frecuencias, es momento de adentrarnos en el armado y funcionamiento del afinador automático de guitarra.
 
 ## Afinador de guitarra automático
