@@ -109,7 +109,7 @@ Una vez que afinamos una cuerda, el programa, mediante una luz LED, avisa al usu
 </p>
 
 <p align="center">
-<img src="Afinador/ImagenesReadMe/CircuitoArduino.png" width="600">
+<img src="Afinador/ImagenesReadMe/CircuitoPlacaArduino.png" width="600">
 </p>
 
 
