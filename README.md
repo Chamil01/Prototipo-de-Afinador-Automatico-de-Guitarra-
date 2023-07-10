@@ -129,7 +129,7 @@ Habiendo afinado todas las cuerdas, el programa avisa al usuario de esta situaci
 
 
 ### Diseño 3D
-Los archivos del diseño 3D se encuentran en esta carpeta. 
+Los archivos del diseño 3D se encuentran en [esta carpeta](https://github.com/Chamil01/Prototipo-de-Afinador-Automatico-de-Guitarra-/blob/main/Afinador/Diseño 3D). 
 
 La pieza que une el motor con la clavija de la guitarra fue diseñada en FreeCad e impresa en 3D por nosotros mismos debido a que, como condición del trabajo, debíamos incorporar estos temas en el proyecto; además, teníamos acceso a una impresora 3D. En caso de querer hacerlos y no contar con el conocimiento o artefactos necesarios, se pueden mandar a hacer, incluso de otros materiales.
 
