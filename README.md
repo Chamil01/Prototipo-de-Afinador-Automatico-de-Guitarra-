@@ -156,14 +156,14 @@ Al ser un prototipo, el proyecto puede ser mejorado en varios aspectos. Detallar
    
 ➡️ _**Versatilidad:**_ Por el momento el prototipo solo es capaz de realizar una afinación estándar del instrumento. Una buena idea a futuro seria implementar alguna forma de que el usuario pueda elegir de antemano la afinación que desea para la guitarra (sin necesidad de modificar el código). 
 
-##Contacto
+## Contacto
 
-[Cherenscio, Camilo](https://www.linkedin.com/in/camilo-cherenscio-4338a6282/)
-
+#### [Cherenscio, Camilo]
+  * 👤 [Linkedin](https://www.linkedin.com/in/camilo-cherenscio-4338a6282/)
   * 📧 ccherenscio@alumnos.exa.unicen.edu.ar
 
-[Labaroni, Sol](https://www.linkedin.com/in/sol-labaroni-2387a8207/)
-
+#### Labaroni, Sol
+  * 👤 [Linkedin](https://www.linkedin.com/in/sol-labaroni-2387a8207/)
   * 📧 sol.labaroni.sl@gmail.com
 
 Sugerencias, correcciones y preguntas son muy bien bienvenidas.
