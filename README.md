@@ -113,7 +113,7 @@ Como vemos en la imagen, utilizamos el circuito integrado ULN2003 para conectar 
 
 ### Software
 
-Todos los codigos están en [esta carpeta](https://github.com/Chamil01/Prototipo-de-Afinador-Automatico-de-Guitarra-/tree/main/Afinador/Software%20y%20m%C3%A1s)
+Todos los codigos están en [esta carpeta](https://github.com/Chamil01/Prototipo-de-Afinador-Automatico-de-Guitarra-/tree/main/Afinador/Software%20y%20m%C3%A1s).
 
 El código [DetectorDeFrecuencia (Python).py](https://github.com/Chamil01/Prototipo-de-Afinador-Automatico-de-Guitarra-/blob/main/Afinador/Software%20y%20m%C3%A1s/DetectorDeFrecuencia%20(Python).py) es el encargado de registrar el sonido de la cuerda sonando y procesarlo para determinar su frecuencia fundamental. El mismo, como bien indica el nombre y el tipo de archivo, fue programado en Python. Para levantar el sonido de la cuerda de la guitarra importamos la biblioteca [“sounddevice”](https://pypi.org/project/sounddevice/), la cual permite utilizar el microfono de la computadora para grabar sonidos y guardarlos como un array. Para cada grabación se eligió registrar 3s de sonido a una frecuencia de sampleo de 44110Hz, la cual es mas que suficiente para las frecuencias que estamos intentando detectar (segun el [teorema de muestreo de Nyquist](https://www.ni.com/es-cr/shop/data-acquisition/measurement-fundamentals-main-page/analog-fundamentals/acquiring-an-analog-signal--bandwidth--nyquist-sampling-theorem-.html)). Obtenido el array representativo del sonido, importamos la biblioteca [“Scipy”](https://scipy.org/) para usar su función _[rfft()](https://docs.scipy.org/doc/scipy/reference/generated/scipy.fft.rfft.html)_, la cual computa una transformada de Fourier discreta de un array unidimensional cuyos elementos son reales. Realizada la transformada procedemos a trabajar con su valor absoluto, y a dicha función le buscamos los picos de frecuencias utilizando la función _[find_peaks](https://docs.scipy.org/doc/scipy/reference/generated/scipy.signal.find_peaks.html)_ también de Scipy (los argumentos de dicha función permiten regular la sensibilidad con la que elige los picos). Detectados los picos, se elige el primero de ellos y se determina a que frecuencia corresponde (frecuencia fundamental). Finalmente ese dato es enviado a la placa arduino mediante comunicación serial, utilizando la biblioteca [“PySerial”](https://pypi.org/project/pyserial/). 
 
@@ -129,7 +129,7 @@ Habiendo afinado todas las cuerdas, el programa avisa al usuario de esta situaci
 
 
 ### Diseño 3D
-Los archivos del diseño 3D se encuentran en [esta carpeta](https://github.com/Chamil01/Prototipo-de-Afinador-Automatico-de-Guitarra-/tree/5fbd1af07adca187633d574ac43939b587aed64f/Afinador/Dise%C3%B1o%203D).
+Todos los archivos del diseño 3D se encuentran en [esta carpeta](https://github.com/Chamil01/Prototipo-de-Afinador-Automatico-de-Guitarra-/tree/5fbd1af07adca187633d574ac43939b587aed64f/Afinador/Dise%C3%B1o%203D).
 
 La pieza que une el motor con la clavija de la guitarra fue diseñada en FreeCad e impresa en 3D por nosotros mismos debido a que, como condición del trabajo, debíamos incorporar estos temas en el proyecto; además, teníamos acceso a una impresora 3D. En caso de querer hacerlos y no contar con el conocimiento o artefactos necesarios, se pueden mandar a hacer, incluso de otros materiales.
 
