@@ -12,7 +12,7 @@
  ➤ [Afinador de guitarra atomático](https://github.com/Chamil01/Prototipo-de-Afinador-Automatico-de-Guitarra-/tree/main#afinador-de-guitarra-autom%C3%A1tico) 
    * [Funcionamiento](https://github.com/Chamil01/Prototipo-de-Afinador-Automatico-de-Guitarra-/tree/main#funcionamiento)
    * [Uso](https://github.com/Chamil01/Prototipo-de-Afinador-Automatico-de-Guitarra-/tree/main#uso)
-   * [Lista de componentes](https://github.com/Chamil01/Prototipo-de-Afinador-Automatico-de-Guitarra-/tree/main#lista-de-componentes)
+   * [Lista de componentes y software necesario](https://github.com/Chamil01/Prototipo-de-Afinador-Automatico-de-Guitarra-/tree/main#lista-de-componentes)
    * [Circuito](https://github.com/Chamil01/Prototipo-de-Afinador-Automatico-de-Guitarra-/tree/main#circuito)
    * [Código](https://github.com/Chamil01/Prototipo-de-Afinador-Automatico-de-Guitarra-/tree/main#c%C3%B3digo)
    * [Diseño 3D](https://github.com/Chamil01/Prototipo-de-Afinador-Automatico-de-Guitarra-/blob/main/README.md#dise%C3%B1o-3d)
@@ -90,9 +90,11 @@ Una vez que afinamos una cuerda, el programa, mediante una luz LED, avisa al usu
 
 ### Uso
 
+El uso del 
 
 
-### Lista de componentes
+
+### Lista de componentes y software necesario
  * 🟢 Placa Arduino UNO **x 1**.
  * 🟢 Circuito integrado ULN2003 **x 1**.
  * 🟢 Motor paso a paso 28BYJ-48 **x 1**.
