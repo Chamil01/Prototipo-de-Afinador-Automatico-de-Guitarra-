@@ -156,7 +156,7 @@ En caso de mantener Arduino IDE abierto con el código de la placa, recomendamos
 
 ## Conclusiones y trabajo a futuro
 
-Al ser un prototipo, el proyecto puede ser mejorado en varios aspectos. Detallaremos a continuación algunas de las dificultades encontradas y posibles implementaciones a futuro para la mejora de la herramienta:
+Al ser un prototipo, el proyecto puede ser mejorado en varios aspectos. Detallaremos a continuación algunas de las dificultades encontradas y posibles implementaciones a futuro para perfeccionar la herramienta:
 
 ➡️  _**Detección de sonido:**_ Actualmente, para la grabación y procesado de la señal sonora, es necesario tener una computadora con micrófono conectada a la placa Arduino. Para poder dotar al afinador de portabilidad se tendría que lograr alguna forma de independizar a la placa Arduino y que trabaje por si sola sin necesidad de un computador. Para ello es necesario poder implementar un mecanismo de detección de sonido a la misma placa, el cual debe encargarse tanto de registrar la señal como de procesarla adecuadamente. Una posible alternativa, que funcionaria específicamente para guitarras eléctricas, sería buscar la forma de utilizar la señal captada por los mismos micrófonos de la guitarra (Pastillas o Humbuckers) y enviarla a la placa Arduino a través del cable que se conecta al instrumento. En cualquier caso, sería necesario dotar a la placa Arduino de una batería externa que le brinde energía para independizarse completamente de la computadora como fuente. 
 
