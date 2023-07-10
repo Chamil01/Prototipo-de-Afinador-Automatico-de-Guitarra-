@@ -46,15 +46,6 @@ Sabemos, de la experiencia cotidiana, que cuando tocamos la cuerda de una guitar
 
 El sonido emitido por la cuerda de la guitarra es captado por el micrófono de la computadora en la cual está conectada la placa Arduino. Para determinar la frecuencia dominante del sonido registrada, es necesario realizar una transformada rápida de Fourier de los datos obtenidos de la señal registrada. En condiciones ideales, al realizar dicha transformada, el pico más alto que aparezca corresponderá a la frecuencia con la que está sonando la cuerda de la guitarra; este dato es el que se compara con la frecuencia a la que debería sonar una cuerda afinada. En una guitarra, la frecuencia de afinación estándar de cada cuerda es:
 
-<style>
-  table {
-    margin: auto; 
-  }
-  
-  td, th {
-    text-align: center; 
-  }
-</style>
 
 <table align="center">
   <tr>
@@ -88,20 +79,18 @@ El sonido emitido por la cuerda de la guitarra es captado por el micrófono de l
 </table>
 
 
-
-
 Cuando la frecuencia de una cuerda aumenta, esta produce un sonido más agudo, mientras que si disminuye, suena más grave. Al comparar el dato obtenido con los exhibidos en la tabla, podremos determinar la acción que debe realizar el motor, tensar o destensar la cuerda correspondiente, accionando sobre las clavijas. Si la frecuencia registrada por el micrófono es menor a la tabulada, el motor debe tensar la cuerda, caso contrario, debe destensarla. Para encastrar el afinador en el instrumento, se utiliza la pieza diseñada e impresa en 3D que conecta el motor con la clavija de la guitarra.
 
 Una vez que afinamos una cuerda, el programa, mediante una luz LED, avisa al usuario que debe pasar a la siguiente cuerda; así sucesivamente hasta afinar por completo el instrumento.
 
 ### Uso
 ### Lista de componentes
-* Placa Arduino UNO x 1.
-* Circuito integrado ULN2003 x 1.
-* Motor paso a paso 28BYJ-48 x 1.
-* Luz LED x 1.
-* Cables dupont macho-hembra x 8.
-* Pieza que conecta el motor con la clavija de la guitarra x 1.
+* Placa Arduino UNO **x 1**.
+* Circuito integrado ULN2003 **x 1**.
+* Motor paso a paso 28BYJ-48 **x 1**.
+* Luz LED **x 1**.
+* Cables Dupont macho-hembra **x 8**.
+* Pieza impresa en 3D que conecta el motor con la clavija de la guitarra **x 1**.
 * Arduino IDE.
 * Python.
 * FreeCAD.
