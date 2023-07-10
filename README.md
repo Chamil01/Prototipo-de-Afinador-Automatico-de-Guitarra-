@@ -19,6 +19,7 @@
    * [Ensamblaje](https://github.com/Chamil01/Prototipo-de-Afinador-Automatico-de-Guitarra-/tree/main#ensamblaje)
     
 ➤ [Conclusiones y trabajo a futuro](https://github.com/Chamil01/Prototipo-de-Afinador-Automatico-de-Guitarra-/tree/main#conclusiones-y-trabajo-a-futuro)
+➤ [Contacto](https://github.com/Chamil01/Prototipo-de-Afinador-Automatico-de-Guitarra-/blob/main/README.md#contacto)
 
 ## Marco teórico
 Antes de adentrarnos en el mundo de la música, las notas e instrumentos, es fundamental comprender el fenómeno esencial que lo hace posible: el sonido. Desde la física, lo que llamamos sonido, no son más que perturbaciones que viajan a través de medios materiales y nuestros oídos pueden percibir. Estas perturbaciones nacen en cierta región del espacio y se propagan a través de él como una **onda**. Las ondas sonoras se generan gracias a una fuente vibrante, como una cuerda de guitarra o las cuerdas vocales de un cantante, la cual produce variaciones de presión en el medio circundante. 
@@ -158,7 +159,7 @@ Al ser un prototipo, el proyecto puede ser mejorado en varios aspectos. Detallar
 
 ## Contacto
 
-#### [Cherenscio, Camilo]
+#### Cherenscio, Camilo
   * 👤 [Linkedin](https://www.linkedin.com/in/camilo-cherenscio-4338a6282/)
   * 📧 ccherenscio@alumnos.exa.unicen.edu.ar
 
@@ -166,6 +167,7 @@ Al ser un prototipo, el proyecto puede ser mejorado en varios aspectos. Detallar
   * 👤 [Linkedin](https://www.linkedin.com/in/sol-labaroni-2387a8207/)
   * 📧 sol.labaroni.sl@gmail.com
 
-Sugerencias, correcciones y preguntas son muy bien bienvenidas.
+
+Sugerencias, correcciones y preguntas son mas que bienvenidas. 
 
 
