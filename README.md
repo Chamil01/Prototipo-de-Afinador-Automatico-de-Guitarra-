@@ -55,7 +55,7 @@ El sonido emitido por la cuerda de la guitarra es captado por el micrófono de l
 | 5ta | 110.00 Hz |
 | 6ta | 82.40 Hz  |
 
-<table>
+<table align="center">
   <tr>
     <th>Cuerda</th>
     <th>Frecuencia</th>
