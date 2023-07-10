@@ -46,14 +46,22 @@ Sabemos, de la experiencia cotidiana, que cuando tocamos la cuerda de una guitar
 
 El sonido emitido por la cuerda de la guitarra es captado por el micrófono de la computadora en la cual está conectada la placa Arduino. Para determinar la frecuencia dominante del sonido registrada, es necesario realizar una transformada rápida de Fourier de los datos obtenidos de la señal registrada. En condiciones ideales, al realizar dicha transformada, el pico más alto que aparezca corresponderá a la frecuencia con la que está sonando la cuerda de la guitarra; este dato es el que se compara con la frecuencia a la que debería sonar una cuerda afinada. En una guitarra, la frecuencia de afinación estándar de cada cuerda es:
 
-| **Cuerda** | **Frecuencia**|
-|:----------:|:-------------:|
-| 1ra | 329.63 Hz |
-| 2da | 246.94 Hz |
-| 3ra | 196.00 Hz |
-| 4ta | 146.83 Hz |
-| 5ta | 110.00 Hz |
-| 6ta | 82.40 Hz  |
+<head>
+    <meta charset="UTF-8">
+    <title>Centered Table</title>
+    <style>
+        table,
+        td,
+        th {
+            border: 1px solid;
+            padding: 20px;
+        }
+ 
+        table {
+            text-align: center;
+        }
+    </style>
+</head>
 
 <table align="center">
   <tr>
