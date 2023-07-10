@@ -55,6 +55,53 @@ El sonido emitido por la cuerda de la guitarra es captado por el micrófono de l
 | 5ta | 110.00 Hz |
 | 6ta | 82.40 Hz  |
 
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td {
+  text-align: center;
+}
+</style>
+</head>
+<body>
+
+<h2>The text-align Property</h2>
+
+<p>This property sets the horizontal alignment (like left, right, or center) of the content in th or td.</p>
+
+<table>
+  <tr>
+    <th>Firstname</th>
+    <th>Lastname</th>
+    <th>Savings</th>
+  </tr>
+  <tr>
+    <td>Peter</td>
+    <td>Griffin</td>
+    <td>$100</td>
+  </tr>
+  <tr>
+    <td>Lois</td>
+    <td>Griffin</td>
+    <td>$150</td>
+  </tr>
+  <tr>
+    <td>Joe</td>
+    <td>Swanson</td>
+    <td>$300</td>
+  </tr>
+  <tr>
+    <td>Cleveland</td>
+    <td>Brown</td>
+    <td>$250</td>
+  </tr>
+</table>
+
+
+
+
 Cuando la frecuencia de una cuerda aumenta, esta produce un sonido más agudo, mientras que si disminuye, suena más grave. Al comparar el dato obtenido con los exhibidos en la tabla, podremos determinar la acción que debe realizar el motor, tensar o destensar la cuerda correspondiente, accionando sobre las clavijas. Si la frecuencia registrada por el micrófono es menor a la tabulada, el motor debe tensar la cuerda, caso contrario, debe destensarla. Para encastrar el afinador en el instrumento, se utiliza la pieza diseñada e impresa en 3D que conecta el motor con la clavija de la guitarra.
 
 Una vez que afinamos una cuerda, el programa, mediante una luz LED, avisa al usuario que debe pasar a la siguiente cuerda; así sucesivamente hasta afinar por completo el instrumento.
