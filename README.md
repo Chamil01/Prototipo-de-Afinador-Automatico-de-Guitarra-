@@ -55,47 +55,34 @@ El sonido emitido por la cuerda de la guitarra es captado por el micrófono de l
 | 5ta | 110.00 Hz |
 | 6ta | 82.40 Hz  |
 
-table {
-  border-collapse: collapse;
-  width: 100%;
-}
-
-td {
-  text-align: center;
-}
-</style>
-</head>
-<body>
-
-<h2>The text-align Property</h2>
-
-<p>This property sets the horizontal alignment (like left, right, or center) of the content in th or td.</p>
-
 <table>
   <tr>
-    <th>Firstname</th>
-    <th>Lastname</th>
-    <th>Savings</th>
+    <th>Cuerda</th>
+    <th>Frecuencia</th>
   </tr>
   <tr>
-    <td>Peter</td>
-    <td>Griffin</td>
-    <td>$100</td>
+    <td>1ra</td>
+    <td>329.63 Hz</td>
   </tr>
   <tr>
-    <td>Lois</td>
-    <td>Griffin</td>
-    <td>$150</td>
+    <td>2da</td>
+    <td>246.94 Hz</td>
   </tr>
   <tr>
-    <td>Joe</td>
-    <td>Swanson</td>
-    <td>$300</td>
+    <td> 3ra </td>
+    <td>196.00 Hz</td>
   </tr>
   <tr>
-    <td>Cleveland</td>
-    <td>Brown</td>
-    <td>$250</td>
+    <td>4ta</td>
+    <td>146.83 Hz</td>
+  </tr>
+  <tr>
+    <td>5ta</td>
+    <td>110.00 Hz</td>
+  </tr>
+  <tr>
+    <td>6ta</td>
+    <td>82.40 Hz</td>
   </tr>
 </table>
 
