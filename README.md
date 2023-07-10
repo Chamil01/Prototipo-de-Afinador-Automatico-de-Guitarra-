@@ -11,12 +11,12 @@
   
  ➤ [Afinador de guitarra atomático](https://github.com/Chamil01/Prototipo-de-Afinador-Automatico-de-Guitarra-/tree/main#afinador-de-guitarra-autom%C3%A1tico) 
    * [Funcionamiento](https://github.com/Chamil01/Prototipo-de-Afinador-Automatico-de-Guitarra-/tree/main#funcionamiento)
-   * [Uso](https://github.com/Chamil01/Prototipo-de-Afinador-Automatico-de-Guitarra-/tree/main#uso)
    * [Lista de componentes y software necesario](https://github.com/Chamil01/Prototipo-de-Afinador-Automatico-de-Guitarra-/tree/main#lista-de-componentes-y-software-necesario)
    * [Circuito](https://github.com/Chamil01/Prototipo-de-Afinador-Automatico-de-Guitarra-/tree/main#circuito)
    * [Código](https://github.com/Chamil01/Prototipo-de-Afinador-Automatico-de-Guitarra-/tree/main#c%C3%B3digo)
    * [Diseño 3D](https://github.com/Chamil01/Prototipo-de-Afinador-Automatico-de-Guitarra-/blob/main/README.md#dise%C3%B1o-3d)
    * [Ensamblaje](https://github.com/Chamil01/Prototipo-de-Afinador-Automatico-de-Guitarra-/tree/main#ensamblaje)
+   * [Uso](https://github.com/Chamil01/Prototipo-de-Afinador-Automatico-de-Guitarra-/tree/main#uso)
     
 ➤ [Conclusiones y trabajo a futuro](https://github.com/Chamil01/Prototipo-de-Afinador-Automatico-de-Guitarra-/tree/main#conclusiones-y-trabajo-a-futuro)
 
@@ -89,11 +89,6 @@ Al comparar el dato obtenido con los exhibidos en la tabla, podremos determinar 
 
 Una vez que afinamos una cuerda, el programa, mediante una luz LED, avisa al usuario que debe pasar a la siguiente cuerda; así sucesivamente hasta afinar por completo el instrumento.
 
-### Uso
-
-El uso del 
-
-
 
 ### Lista de componentes y software necesario
  * 🟢 Placa Arduino UNO **x 1**.
@@ -106,7 +101,8 @@ El uso del
  * 🟢 Python.
  * 🟢 FreeCAD.
  * 🟢 Ultimaker CURA.
-  
+
+
 ### Circuito
 
 
@@ -146,6 +142,13 @@ Para el diseño de la pieza, se utilizó el _Workbench Part_ y las figuras primi
 Finalmente, se utilizó Slicer Ultimaker CURA para definir el porcentaje de relleno de la pieza, eligiendo que sea de un 40%. Se determinó este porcentaje con el fin de que no sea algo muy macizo, pero que tampoco sea lo suficientemente liviano como para quebrarse con el torque del motor.
 
 ### Ensamblaje
+
+### Uso
+
+El uso del 
+
+  
+
 
 ## Conclusiones y trabajo a futuro
 
