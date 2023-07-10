@@ -85,15 +85,15 @@ Una vez que afinamos una cuerda, el programa, mediante una luz LED, avisa al usu
 
 ### Uso
 ### Lista de componentes
->* Placa Arduino UNO **x 1**.
->* Circuito integrado ULN2003 **x 1**.
->* Motor paso a paso 28BYJ-48 **x 1**.
->* Luz LED **x 1**.
->* Cables Dupont macho-hembra **x 8**.
->* Pieza impresa en 3D que conecta el motor con la clavija de la guitarra **x 1**.
->* Arduino IDE.
->* Python.
->* FreeCAD.
+* 🟢 Placa Arduino UNO **x 1**.
+* 🟢 Circuito integrado ULN2003 **x 1**.
+* 🟢 Motor paso a paso 28BYJ-48 **x 1**.
+* 🟢 Luz LED **x 1**.
+* 🟢 Cables Dupont macho-hembra **x 8**.
+* 🟢 Pieza impresa en 3D que conecta el motor con la clavija de la guitarra **x 1**.
+* 🟢 Arduino IDE.
+* 🟢 Python.
+* 🟢 FreeCAD.
   
 ### Circuito
 [![Circuito-afinador.png](https://i.postimg.cc/d1xjq4tD/Circuito-afinador.png)](https://postimg.cc/wyDm25Nd)
