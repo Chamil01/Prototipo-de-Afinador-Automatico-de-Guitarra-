@@ -114,6 +114,8 @@ Como vemos en la imagen, utilizamos el circuito integrado ULN2003 para conectar 
 
 Todos los codigos están en [esta carpeta](https://github.com/Chamil01/Prototipo-de-Afinador-Automatico-de-Guitarra-/tree/main/Afinador/Software%20y%20m%C3%A1s)
 
+El código [DetectorDeFrecuencia (Python).py](https://github.com/Chamil01/Prototipo-de-Afinador-Automatico-de-Guitarra-/blob/main/Afinador/Software%20y%20m%C3%A1s/DetectorDeFrecuencia%20(Python).py) es el encargado de registrar el sonido de la cuerda sonando y procesarlo para determinar su frecuencia fundamental. 
+
 
 ### Diseño 3D
 ### Ensamblaje
