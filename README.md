@@ -99,7 +99,13 @@ Una vez que afinamos una cuerda, el programa, mediante una luz LED, avisa al usu
 * 🟢 FreeCAD.
   
 ### Circuito
-![](Afinador/ImagenesReadMe/EsquemaDelCircuito.pdf)
+
+<p align="center">
+<img src="Afinador/ImagenesReadMe/Circuito.jpg" width="600">
+</p>
+
+
+
 
 Como vemos en la imagen, utilizamos el circuito integrado ULN2003 para conectar el motor paso a paso con la placa Arduino UNO. El extremo positivo de este circuito, se conecta a 5V, mientras que el negativo se conecta a GND (tierra). Los pines IN, se conectan hacia los pines digitales de la placa Arduino de la siguiente manera: IN1 se conecta al pin 8, IN2 se conecta al pin 9, IN3 se conecta al pin 10 e IN4 se conecta al pin 10. Adicionalmente, conectamos el ánodo de la luz LED (extremo más largo) al pin digital 7 y el cátodo a GND. Finalmente, conectamos la placa Arduino UNO a la computadora. 
 
