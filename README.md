@@ -70,6 +70,7 @@ Como vemos en la imagen, utilizamos el circuito integrado ULN2003 para conectar 
 
 
 ### Software
+### Diseño 3D
 ### Ensamblaje
 
 ## Conclusiones y trabajo a futuro
