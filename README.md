@@ -159,8 +159,11 @@ Al ser un prototipo, el proyecto puede ser mejorado en varios aspectos. Detallar
 ##Contacto
 
 [Cherenscio, Camilo](https://www.linkedin.com/in/camilo-cherenscio-4338a6282/)
-  * 📧 ccherenscio@alumnos.exa.unicen.edu.ar  
+
+  * 📧 ccherenscio@alumnos.exa.unicen.edu.ar
+
 [Labaroni, Sol](https://www.linkedin.com/in/sol-labaroni-2387a8207/)
+
   * 📧 sol.labaroni.sl@gmail.com
 
 Sugerencias, correcciones y preguntas son muy bien bienvenidas.
