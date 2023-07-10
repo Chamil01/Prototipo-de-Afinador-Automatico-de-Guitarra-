@@ -40,6 +40,13 @@ En palabras sencillas, y sin entrar en demasiados detalles matemáticos, la tran
 <img src="Afinador/ImagenesReadMe/FFT-Time-Frequency-View-540.png" width="600">
 </p>
 
+<p align="center">
+<img src="Afinador/ImagenesReadMe/CircuitoArduino.png" width="600">
+</p>
+
+
+
+
 Teniendo esta breve introducción sobre el sonido, las notas musicales y cómo se relacionan con las frecuencias, es momento de adentrarnos en el armado y funcionamiento del afinador automático de guitarra.
 
 ## Afinador de guitarra automático
