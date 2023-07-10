@@ -170,6 +170,9 @@ Al ser un prototipo, el proyecto puede ser mejorado en varios aspectos. Detallar
    
 ➡️ _**Versatilidad:**_ Por el momento el prototipo solo es capaz de realizar una afinación estándar del instrumento. Una buena idea a futuro seria implementar alguna forma de que el usuario pueda elegir de antemano la afinación que desea para la guitarra (sin necesidad de modificar el código). 
 
+## Agradecimientos
+Queremos agradecerle al Centro Universitario de Innovación Ciudadana (CUIC), perteneciente a la Facultad de Ciencias Exactas de la UNCPBA, por prestarnos las instalaciones del espacio maker, por ayudarnos con el diseño 3D cuando tuvimos dificultades y por imprimirnos la pieza 3D sin ningún costo. 
+
 ## Contacto
 
 #### Cherenscio, Camilo
