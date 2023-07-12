@@ -5,7 +5,7 @@
 //////////// Main /////////////
 
 float FrecuenciaRecibida;
-int Cuerda=5;
+int Cuerda=0;
 
 void setup() {
   Serial.begin(9600);
@@ -19,7 +19,7 @@ void loop() {
     FrecuenciaRecibida = floatString.toFloat();
     float DiferenciaEntreFrecuencias;
     float AjustarClavija;
-    DiferenciaEntreFrecuencias=CompararFrecuencia(330, Cuerda);
+    DiferenciaEntreFrecuencias=CompararFrecuencia(FrecuenciaRecibida, Cuerda);
     
     if (abs(DiferenciaEntreFrecuencias)<=0.7){  //Verificamos si la cuerda ya está afinada
       if (Cuerda==5) {
